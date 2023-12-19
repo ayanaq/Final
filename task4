@@ -1,0 +1,13 @@
+question 1: 
+Git Switch and Git Checkout are both used for switching between different branches in a repository. However, Git Checkout is a versatile command also capable of discarding changes and creating new branches, while Git Switch is a newer, more specialized command focused solely on switching and creating branches.
+
+question 2:
+Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.
+
+question 3:
+git rebase rewrites the commit history. It can be harmful to do it in shared branches. It can cause complex and hard to resolve merge conflicts. Instead of rebasing your branch against the default branch, consider pulling it instead ( git pull origin master ).
+
+question 4:
+To see local branch names, open your terminal and run git branch:
+To see all remote branch names, run git branch -r:
+To see all local and remote branches, run git branch -a:
